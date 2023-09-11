@@ -1,0 +1,10 @@
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\bin\Debug\AstroServer.exe.config
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\bin\Debug\AstroServer.exe
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\bin\Debug\AstroServer.pdb
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\bin\Debug\AstroMath.dll
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\obj\Debug\AstroServer.csproj.AssemblyReference.cache
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\obj\Debug\AstroServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\obj\Debug\AstroServer.csproj.CoreCompileInputs.cache
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\obj\Debug\AstroServer.csproj.CopyComplete
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\obj\Debug\AstroServer.exe
+C:\Users\p252069\Source\Repos\AstroServer\AstroServer\obj\Debug\AstroServer.pdb
