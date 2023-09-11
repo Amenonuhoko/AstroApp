@@ -6,10 +6,11 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using AstroMath;
+using MetroSet_UI.Forms;
 
 namespace ClientAstroApp
 {
-    public partial class AstroClient : Form
+    public partial class AstroClient : MetroSetForm
     {
 
         // Mauriza Arianne P252069
@@ -71,39 +72,107 @@ namespace ClientAstroApp
 
         private void btnCalcStarVelocity_Click(object sender, EventArgs e)
         {
-            double val1 = Convert.ToDouble(tbStarVelocity01.Text);
-            double val2 = Convert.ToDouble(tbStarVelocity01.Text);
-            double result = channel.StarVelocity(val1, val2);
+            try
+            {
+                if (string.IsNullOrWhiteSpace(tbStarVelocity01.Text) || string.IsNullOrWhiteSpace(tbStarVelocity02.Text))
+                {
+                    MessageBox.Show("Please enter values in both fields.");
+                    return;
+                }
 
-            AddToListView(1, result.ToString());
+                double val1 = Convert.ToDouble(tbStarVelocity01.Text);
+                double val2 = Convert.ToDouble(tbStarVelocity02.Text);
+                double result = channel.StarVelocity(val1, val2);
+
+                AddToListView(1, result.ToString());
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Invalid input. Please enter valid numbers.");
+            }
         }
+
         private void btnCalcStarDistance_Click(object sender, EventArgs e)
         {
-            double value = Convert.ToDouble(tbStarDistance.Text);
-            double result = channel.StarDistance(value);
+            try
+            {
+                if (string.IsNullOrWhiteSpace(tbStarDistance.Text))
+                {
+                    MessageBox.Show("Please enter a value.");
+                    return;
+                }
 
-            AddToListView(2, result.ToString());
+                double value = Convert.ToDouble(tbStarDistance.Text);
+                double result = channel.StarDistance(value);
+
+                AddToListView(2, result.ToString());
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Invalid input. Please enter a valid number.");
+            }
         }
-
 
         private void btnCalcTemperature_Click(object sender, EventArgs e)
         {
-            int value = Convert.ToInt32(tbTemperature.Text);
-            double result = channel.TempInKelvin(value);
+            try
+            {
+                if (string.IsNullOrWhiteSpace(tbTemperature.Text))
+                {
+                    MessageBox.Show("Please enter a value.");
+                    return;
+                }
 
-            AddToListView(3, result.ToString());
+                int value = Convert.ToInt32(tbTemperature.Text);
+                double result = channel.TempInKelvin(value);
+
+                AddToListView(3, result.ToString());
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Invalid input. Please enter a valid number.");
+            }
         }
 
         private void btnCalcEventHorizon_Click(object sender, EventArgs e)
         {
-            double value = Convert.ToDouble(tbEventHorizon.Text);
-            double result = channel.EventHorizon(value);
+            try
+            {
+                if (string.IsNullOrWhiteSpace(tbEventHorizon.Text))
+                {
+                    MessageBox.Show("Please enter a value.");
+                    return;
+                }
 
-            AddToListView(4, result.ToString());
+                double value = Convert.ToDouble(tbEventHorizon.Text);
+                double result = channel.EventHorizon(value);
+
+                AddToListView(4, result.ToString());
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Invalid input. Please enter a valid number.");
+            }
         }
 
+        private void msBtnColour_Click(object sender, EventArgs e)
+        {
+            using (ColorDialog colorDialog = new ColorDialog())
+            {
+                // Set the initial color to the current form's background color
+                colorDialog.Color = this.BackColor;
 
+                // Show the color dialog and get the result
+                DialogResult result = colorDialog.ShowDialog();
 
+                // If the user clicked OK, change the form's background color to the selected color
+                if (result == DialogResult.OK)
+                {
+                    this.BackColor = colorDialog.Color;
+                    tbStarDistance.Text = this.BackColor.ToString();
+                }
+            }
 
+        }
     }
 }
