@@ -28,33 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.tbStarVelocity01 = new System.Windows.Forms.TextBox();
+            this.tbStarVelocity02 = new System.Windows.Forms.TextBox();
+            this.tbTemperature = new System.Windows.Forms.TextBox();
+            this.tbStarDistance = new System.Windows.Forms.TextBox();
+            this.tbEventHorizon = new System.Windows.Forms.TextBox();
             this.lvResults = new System.Windows.Forms.ListView();
             this.colStarVelocity = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colStarDistance = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colTemperature = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colEventHorizon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tbEventHorizon = new System.Windows.Forms.TextBox();
-            this.tbTemperature = new System.Windows.Forms.TextBox();
-            this.tbStarDistance = new System.Windows.Forms.TextBox();
-            this.tbStarVelocity01 = new System.Windows.Forms.TextBox();
-            this.tbStarVelocity02 = new System.Windows.Forms.TextBox();
-            this.metroSetControlBox1 = new MetroSet_UI.Controls.MetroSetControlBox();
-            this.metroSetTabControl1 = new MetroSet_UI.Controls.MetroSetTabControl();
-            this.msstEnglish = new MetroSet_UI.Child.MetroSetSetTabPage();
-            this.msstFrench = new MetroSet_UI.Child.MetroSetSetTabPage();
-            this.msstGerman = new MetroSet_UI.Child.MetroSetSetTabPage();
-            this.mslStarVelocity = new MetroSet_UI.Controls.MetroSetLabel();
-            this.mslStarDistance = new MetroSet_UI.Controls.MetroSetLabel();
-            this.mslTemperature = new MetroSet_UI.Controls.MetroSetLabel();
-            this.mslEventHorizon = new MetroSet_UI.Controls.MetroSetLabel();
-            this.msBtnStarVelocity = new MetroSet_UI.Controls.MetroSetButton();
-            this.msBtnStarDistance = new MetroSet_UI.Controls.MetroSetButton();
-            this.msBtnTemperature = new MetroSet_UI.Controls.MetroSetButton();
-            this.msBtnEventHorizon = new MetroSet_UI.Controls.MetroSetButton();
-            this.msBtnColour = new MetroSet_UI.Controls.MetroSetDefaultButton();
-            this.metroSetTabControl1.SuspendLayout();
-            this.msstEnglish.SuspendLayout();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnBackColour = new System.Windows.Forms.Button();
+            this.btnFontColour = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.rbLightMode = new System.Windows.Forms.RadioButton();
+            this.rbDarkMode = new System.Windows.Forms.RadioButton();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // tbStarVelocity01
+            // 
+            this.tbStarVelocity01.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbStarVelocity01.Location = new System.Drawing.Point(15, 115);
+            this.tbStarVelocity01.Margin = new System.Windows.Forms.Padding(2);
+            this.tbStarVelocity01.Name = "tbStarVelocity01";
+            this.tbStarVelocity01.Size = new System.Drawing.Size(61, 31);
+            this.tbStarVelocity01.TabIndex = 38;
+            this.tbStarVelocity01.Text = "500.1";
+            // 
+            // tbStarVelocity02
+            // 
+            this.tbStarVelocity02.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbStarVelocity02.Location = new System.Drawing.Point(80, 115);
+            this.tbStarVelocity02.Margin = new System.Windows.Forms.Padding(2);
+            this.tbStarVelocity02.Name = "tbStarVelocity02";
+            this.tbStarVelocity02.Size = new System.Drawing.Size(65, 31);
+            this.tbStarVelocity02.TabIndex = 39;
+            this.tbStarVelocity02.Text = "500.0";
+            // 
+            // tbTemperature
+            // 
+            this.tbTemperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbTemperature.Location = new System.Drawing.Point(281, 115);
+            this.tbTemperature.Margin = new System.Windows.Forms.Padding(2);
+            this.tbTemperature.Name = "tbTemperature";
+            this.tbTemperature.Size = new System.Drawing.Size(128, 31);
+            this.tbTemperature.TabIndex = 36;
+            this.tbTemperature.Text = "27";
+            // 
+            // tbStarDistance
+            // 
+            this.tbStarDistance.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbStarDistance.Location = new System.Drawing.Point(149, 115);
+            this.tbStarDistance.Margin = new System.Windows.Forms.Padding(2);
+            this.tbStarDistance.Name = "tbStarDistance";
+            this.tbStarDistance.Size = new System.Drawing.Size(128, 31);
+            this.tbStarDistance.TabIndex = 37;
+            this.tbStarDistance.Text = "0.547";
+            // 
+            // tbEventHorizon
+            // 
+            this.tbEventHorizon.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbEventHorizon.Location = new System.Drawing.Point(413, 115);
+            this.tbEventHorizon.Margin = new System.Windows.Forms.Padding(2);
+            this.tbEventHorizon.Name = "tbEventHorizon";
+            this.tbEventHorizon.Size = new System.Drawing.Size(128, 31);
+            this.tbEventHorizon.TabIndex = 35;
+            this.tbEventHorizon.Text = "8.2e36";
             // 
             // lvResults
             // 
@@ -64,432 +113,233 @@
             this.colTemperature,
             this.colEventHorizon});
             this.lvResults.HideSelection = false;
-            this.lvResults.Location = new System.Drawing.Point(0, 152);
+            this.lvResults.Location = new System.Drawing.Point(15, 213);
+            this.lvResults.Margin = new System.Windows.Forms.Padding(2);
             this.lvResults.Name = "lvResults";
-            this.lvResults.Size = new System.Drawing.Size(514, 191);
-            this.lvResults.TabIndex = 3;
+            this.lvResults.Size = new System.Drawing.Size(526, 252);
+            this.lvResults.TabIndex = 34;
             this.lvResults.UseCompatibleStateImageBehavior = false;
             this.lvResults.View = System.Windows.Forms.View.Details;
             // 
             // colStarVelocity
             // 
             this.colStarVelocity.Text = "Star Velocity";
-            this.colStarVelocity.Width = 128;
+            this.colStarVelocity.Width = 131;
             // 
             // colStarDistance
             // 
             this.colStarDistance.Text = "Star Distance";
-            this.colStarDistance.Width = 129;
+            this.colStarDistance.Width = 133;
             // 
             // colTemperature
             // 
             this.colTemperature.Text = "Temperature in Kelvin";
-            this.colTemperature.Width = 135;
+            this.colTemperature.Width = 129;
             // 
             // colEventHorizon
             // 
             this.colEventHorizon.Text = "Event Horizon";
-            this.colEventHorizon.Width = 117;
+            this.colEventHorizon.Width = 124;
             // 
-            // tbEventHorizon
+            // button2
             // 
-            this.tbEventHorizon.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbEventHorizon.Location = new System.Drawing.Point(393, 65);
-            this.tbEventHorizon.Name = "tbEventHorizon";
-            this.tbEventHorizon.Size = new System.Drawing.Size(121, 31);
-            this.tbEventHorizon.TabIndex = 11;
-            this.tbEventHorizon.Text = "8.2e36";
+            this.button2.Location = new System.Drawing.Point(149, 151);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(130, 42);
+            this.button2.TabIndex = 41;
+            this.button2.Text = "Calculate";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btnCalcStarDistance_Click);
             // 
-            // tbTemperature
+            // button3
             // 
-            this.tbTemperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTemperature.Location = new System.Drawing.Point(264, 65);
-            this.tbTemperature.Name = "tbTemperature";
-            this.tbTemperature.Size = new System.Drawing.Size(123, 31);
-            this.tbTemperature.TabIndex = 19;
-            this.tbTemperature.Text = "27";
+            this.button3.Location = new System.Drawing.Point(281, 151);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(128, 42);
+            this.button3.TabIndex = 42;
+            this.button3.Text = "Calculate";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.btnCalcTemperature_Click);
             // 
-            // tbStarDistance
+            // button1
             // 
-            this.tbStarDistance.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbStarDistance.Location = new System.Drawing.Point(135, 65);
-            this.tbStarDistance.Name = "tbStarDistance";
-            this.tbStarDistance.Size = new System.Drawing.Size(123, 31);
-            this.tbStarDistance.TabIndex = 20;
-            this.tbStarDistance.Text = "0.547";
+            this.button1.Location = new System.Drawing.Point(413, 151);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(128, 42);
+            this.button1.TabIndex = 43;
+            this.button1.Text = "Calculate";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnCalcEventHorizon_Click);
             // 
-            // tbStarVelocity01
+            // button4
             // 
-            this.tbStarVelocity01.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbStarVelocity01.Location = new System.Drawing.Point(0, 65);
-            this.tbStarVelocity01.Name = "tbStarVelocity01";
-            this.tbStarVelocity01.Size = new System.Drawing.Size(64, 31);
-            this.tbStarVelocity01.TabIndex = 21;
-            this.tbStarVelocity01.Text = "500.1";
+            this.button4.Location = new System.Drawing.Point(15, 151);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(130, 42);
+            this.button4.TabIndex = 44;
+            this.button4.Text = "Calculate";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.btnCalcStarVelocity_Click);
             // 
-            // tbStarVelocity02
+            // groupBox1
             // 
-            this.tbStarVelocity02.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbStarVelocity02.Location = new System.Drawing.Point(65, 65);
-            this.tbStarVelocity02.Name = "tbStarVelocity02";
-            this.tbStarVelocity02.Size = new System.Drawing.Size(64, 31);
-            this.tbStarVelocity02.TabIndex = 25;
-            this.tbStarVelocity02.Text = "500.0";
+            this.groupBox1.Controls.Add(this.rbDarkMode);
+            this.groupBox1.Controls.Add(this.rbLightMode);
+            this.groupBox1.Controls.Add(this.btnBackColour);
+            this.groupBox1.Controls.Add(this.btnFontColour);
+            this.groupBox1.Location = new System.Drawing.Point(317, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(224, 76);
+            this.groupBox1.TabIndex = 45;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Colours";
             // 
-            // metroSetControlBox1
+            // btnBackColour
             // 
-            this.metroSetControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.metroSetControlBox1.CloseHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.metroSetControlBox1.CloseHoverForeColor = System.Drawing.Color.White;
-            this.metroSetControlBox1.CloseNormalForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.DisabledForeColor = System.Drawing.Color.DimGray;
-            this.metroSetControlBox1.IsDerivedStyle = true;
-            this.metroSetControlBox1.Location = new System.Drawing.Point(440, 12);
-            this.metroSetControlBox1.MaximizeBox = true;
-            this.metroSetControlBox1.MaximizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.metroSetControlBox1.MaximizeHoverForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.MaximizeNormalForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.MinimizeBox = true;
-            this.metroSetControlBox1.MinimizeHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.metroSetControlBox1.MinimizeHoverForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.MinimizeNormalForeColor = System.Drawing.Color.Gray;
-            this.metroSetControlBox1.Name = "metroSetControlBox1";
-            this.metroSetControlBox1.Size = new System.Drawing.Size(100, 25);
-            this.metroSetControlBox1.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetControlBox1.StyleManager = null;
-            this.metroSetControlBox1.TabIndex = 26;
-            this.metroSetControlBox1.Text = "metroSetControlBox1";
-            this.metroSetControlBox1.ThemeAuthor = "Narwin";
-            this.metroSetControlBox1.ThemeName = "MetroLite";
+            this.btnBackColour.Location = new System.Drawing.Point(6, 19);
+            this.btnBackColour.Name = "btnBackColour";
+            this.btnBackColour.Size = new System.Drawing.Size(116, 23);
+            this.btnBackColour.TabIndex = 3;
+            this.btnBackColour.Text = "Background Colour";
+            this.btnBackColour.UseVisualStyleBackColor = true;
+            this.btnBackColour.Click += new System.EventHandler(this.btnBackColour_Click);
             // 
-            // metroSetTabControl1
+            // btnFontColour
             // 
-            this.metroSetTabControl1.AnimateEasingType = MetroSet_UI.Enums.EasingType.CubeOut;
-            this.metroSetTabControl1.AnimateTime = 200;
-            this.metroSetTabControl1.BackgroundColor = System.Drawing.Color.White;
-            this.metroSetTabControl1.Controls.Add(this.msstEnglish);
-            this.metroSetTabControl1.Controls.Add(this.msstFrench);
-            this.metroSetTabControl1.Controls.Add(this.msstGerman);
-            this.metroSetTabControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroSetTabControl1.IsDerivedStyle = true;
-            this.metroSetTabControl1.ItemSize = new System.Drawing.Size(100, 38);
-            this.metroSetTabControl1.Location = new System.Drawing.Point(15, 92);
-            this.metroSetTabControl1.Name = "metroSetTabControl1";
-            this.metroSetTabControl1.SelectedIndex = 0;
-            this.metroSetTabControl1.SelectedTextColor = System.Drawing.Color.White;
-            this.metroSetTabControl1.Size = new System.Drawing.Size(523, 407);
-            this.metroSetTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.metroSetTabControl1.Speed = 100;
-            this.metroSetTabControl1.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetTabControl1.StyleManager = null;
-            this.metroSetTabControl1.TabIndex = 27;
-            this.metroSetTabControl1.ThemeAuthor = "Narwin";
-            this.metroSetTabControl1.ThemeName = "MetroLite";
-            this.metroSetTabControl1.UnselectedTextColor = System.Drawing.Color.Gray;
-            this.metroSetTabControl1.UseAnimation = false;
+            this.btnFontColour.Location = new System.Drawing.Point(6, 47);
+            this.btnFontColour.Name = "btnFontColour";
+            this.btnFontColour.Size = new System.Drawing.Size(116, 23);
+            this.btnFontColour.TabIndex = 2;
+            this.btnFontColour.Text = "Font Colour";
+            this.btnFontColour.UseVisualStyleBackColor = true;
+            this.btnFontColour.Click += new System.EventHandler(this.btnFontColour_Click);
             // 
-            // msstEnglish
+            // label6
             // 
-            this.msstEnglish.BaseColor = System.Drawing.Color.White;
-            this.msstEnglish.Controls.Add(this.msBtnEventHorizon);
-            this.msstEnglish.Controls.Add(this.msBtnTemperature);
-            this.msstEnglish.Controls.Add(this.msBtnStarDistance);
-            this.msstEnglish.Controls.Add(this.msBtnStarVelocity);
-            this.msstEnglish.Controls.Add(this.mslEventHorizon);
-            this.msstEnglish.Controls.Add(this.mslTemperature);
-            this.msstEnglish.Controls.Add(this.mslStarDistance);
-            this.msstEnglish.Controls.Add(this.mslStarVelocity);
-            this.msstEnglish.Controls.Add(this.tbStarVelocity01);
-            this.msstEnglish.Controls.Add(this.tbStarVelocity02);
-            this.msstEnglish.Controls.Add(this.tbTemperature);
-            this.msstEnglish.Controls.Add(this.tbStarDistance);
-            this.msstEnglish.Controls.Add(this.tbEventHorizon);
-            this.msstEnglish.Controls.Add(this.lvResults);
-            this.msstEnglish.Font = null;
-            this.msstEnglish.ImageIndex = 0;
-            this.msstEnglish.ImageKey = null;
-            this.msstEnglish.IsDerivedStyle = true;
-            this.msstEnglish.Location = new System.Drawing.Point(4, 42);
-            this.msstEnglish.Name = "msstEnglish";
-            this.msstEnglish.Size = new System.Drawing.Size(515, 361);
-            this.msstEnglish.Style = MetroSet_UI.Enums.Style.Light;
-            this.msstEnglish.StyleManager = null;
-            this.msstEnglish.TabIndex = 0;
-            this.msstEnglish.Text = "English";
-            this.msstEnglish.ThemeAuthor = "Narwin";
-            this.msstEnglish.ThemeName = "MetroLite";
-            this.msstEnglish.ToolTipText = null;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(410, 97);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(74, 13);
+            this.label6.TabIndex = 51;
+            this.label6.Text = "Event Horizon";
             // 
-            // msstFrench
+            // label1
             // 
-            this.msstFrench.BaseColor = System.Drawing.Color.White;
-            this.msstFrench.Font = null;
-            this.msstFrench.ImageIndex = 0;
-            this.msstFrench.ImageKey = null;
-            this.msstFrench.IsDerivedStyle = true;
-            this.msstFrench.Location = new System.Drawing.Point(4, 42);
-            this.msstFrench.Name = "msstFrench";
-            this.msstFrench.Size = new System.Drawing.Size(515, 361);
-            this.msstFrench.Style = MetroSet_UI.Enums.Style.Light;
-            this.msstFrench.StyleManager = null;
-            this.msstFrench.TabIndex = 1;
-            this.msstFrench.Text = "French";
-            this.msstFrench.ThemeAuthor = "Narwin";
-            this.msstFrench.ThemeName = "MetroLite";
-            this.msstFrench.ToolTipText = null;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 97);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(66, 13);
+            this.label1.TabIndex = 47;
+            this.label1.Text = "Star Velocity";
             // 
-            // msstGerman
+            // label3
             // 
-            this.msstGerman.BaseColor = System.Drawing.Color.White;
-            this.msstGerman.Font = null;
-            this.msstGerman.ImageIndex = 0;
-            this.msstGerman.ImageKey = null;
-            this.msstGerman.IsDerivedStyle = true;
-            this.msstGerman.Location = new System.Drawing.Point(4, 42);
-            this.msstGerman.Name = "msstGerman";
-            this.msstGerman.Size = new System.Drawing.Size(515, 361);
-            this.msstGerman.Style = MetroSet_UI.Enums.Style.Light;
-            this.msstGerman.StyleManager = null;
-            this.msstGerman.TabIndex = 2;
-            this.msstGerman.Text = "German";
-            this.msstGerman.ThemeAuthor = "Narwin";
-            this.msstGerman.ThemeName = "MetroLite";
-            this.msstGerman.ToolTipText = null;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 28);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(133, 13);
+            this.label3.TabIndex = 48;
+            this.label3.Text = "TODO ADD LANGUAGES";
             // 
-            // mslStarVelocity
+            // label4
             // 
-            this.mslStarVelocity.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mslStarVelocity.IsDerivedStyle = true;
-            this.mslStarVelocity.Location = new System.Drawing.Point(-4, 21);
-            this.mslStarVelocity.Name = "mslStarVelocity";
-            this.mslStarVelocity.Size = new System.Drawing.Size(133, 23);
-            this.mslStarVelocity.Style = MetroSet_UI.Enums.Style.Light;
-            this.mslStarVelocity.StyleManager = null;
-            this.mslStarVelocity.TabIndex = 26;
-            this.mslStarVelocity.Text = "Star Velocity";
-            this.mslStarVelocity.ThemeAuthor = "Narwin";
-            this.mslStarVelocity.ThemeName = "MetroLite";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(146, 97);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 13);
+            this.label4.TabIndex = 49;
+            this.label4.Text = "Star Distance";
             // 
-            // mslStarDistance
+            // label5
             // 
-            this.mslStarDistance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mslStarDistance.IsDerivedStyle = true;
-            this.mslStarDistance.Location = new System.Drawing.Point(135, 21);
-            this.mslStarDistance.Name = "mslStarDistance";
-            this.mslStarDistance.Size = new System.Drawing.Size(123, 23);
-            this.mslStarDistance.Style = MetroSet_UI.Enums.Style.Light;
-            this.mslStarDistance.StyleManager = null;
-            this.mslStarDistance.TabIndex = 27;
-            this.mslStarDistance.Text = "Star Distance";
-            this.mslStarDistance.ThemeAuthor = "Narwin";
-            this.mslStarDistance.ThemeName = "MetroLite";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(278, 97);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(67, 13);
+            this.label5.TabIndex = 50;
+            this.label5.Text = "Temperature";
             // 
-            // mslTemperature
+            // rbLightMode
             // 
-            this.mslTemperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mslTemperature.IsDerivedStyle = true;
-            this.mslTemperature.Location = new System.Drawing.Point(264, 21);
-            this.mslTemperature.Name = "mslTemperature";
-            this.mslTemperature.Size = new System.Drawing.Size(123, 23);
-            this.mslTemperature.Style = MetroSet_UI.Enums.Style.Light;
-            this.mslTemperature.StyleManager = null;
-            this.mslTemperature.TabIndex = 28;
-            this.mslTemperature.Text = "Temperature";
-            this.mslTemperature.ThemeAuthor = "Narwin";
-            this.mslTemperature.ThemeName = "MetroLite";
+            this.rbLightMode.AutoSize = true;
+            this.rbLightMode.Location = new System.Drawing.Point(128, 22);
+            this.rbLightMode.Name = "rbLightMode";
+            this.rbLightMode.Size = new System.Drawing.Size(78, 17);
+            this.rbLightMode.TabIndex = 4;
+            this.rbLightMode.TabStop = true;
+            this.rbLightMode.Text = "Light Mode";
+            this.rbLightMode.UseVisualStyleBackColor = true;
+            this.rbLightMode.CheckedChanged += new System.EventHandler(this.ChangeTheme);
             // 
-            // mslEventHorizon
+            // rbDarkMode
             // 
-            this.mslEventHorizon.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mslEventHorizon.IsDerivedStyle = true;
-            this.mslEventHorizon.Location = new System.Drawing.Point(393, 21);
-            this.mslEventHorizon.Name = "mslEventHorizon";
-            this.mslEventHorizon.Size = new System.Drawing.Size(130, 23);
-            this.mslEventHorizon.Style = MetroSet_UI.Enums.Style.Light;
-            this.mslEventHorizon.StyleManager = null;
-            this.mslEventHorizon.TabIndex = 29;
-            this.mslEventHorizon.Text = "Event Horizon";
-            this.mslEventHorizon.ThemeAuthor = "Narwin";
-            this.mslEventHorizon.ThemeName = "MetroLite";
-            // 
-            // msBtnStarVelocity
-            // 
-            this.msBtnStarVelocity.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnStarVelocity.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnStarVelocity.DisabledForeColor = System.Drawing.Color.Gray;
-            this.msBtnStarVelocity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.msBtnStarVelocity.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.msBtnStarVelocity.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.msBtnStarVelocity.HoverTextColor = System.Drawing.Color.White;
-            this.msBtnStarVelocity.IsDerivedStyle = true;
-            this.msBtnStarVelocity.Location = new System.Drawing.Point(26, 104);
-            this.msBtnStarVelocity.Name = "msBtnStarVelocity";
-            this.msBtnStarVelocity.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnStarVelocity.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnStarVelocity.NormalTextColor = System.Drawing.Color.White;
-            this.msBtnStarVelocity.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.msBtnStarVelocity.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.msBtnStarVelocity.PressTextColor = System.Drawing.Color.White;
-            this.msBtnStarVelocity.Size = new System.Drawing.Size(75, 36);
-            this.msBtnStarVelocity.Style = MetroSet_UI.Enums.Style.Light;
-            this.msBtnStarVelocity.StyleManager = null;
-            this.msBtnStarVelocity.TabIndex = 30;
-            this.msBtnStarVelocity.Text = "Calculate";
-            this.msBtnStarVelocity.ThemeAuthor = "Narwin";
-            this.msBtnStarVelocity.ThemeName = "MetroLite";
-            this.msBtnStarVelocity.Click += new System.EventHandler(this.btnCalcStarVelocity_Click);
-            // 
-            // msBtnStarDistance
-            // 
-            this.msBtnStarDistance.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnStarDistance.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnStarDistance.DisabledForeColor = System.Drawing.Color.Gray;
-            this.msBtnStarDistance.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.msBtnStarDistance.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.msBtnStarDistance.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.msBtnStarDistance.HoverTextColor = System.Drawing.Color.White;
-            this.msBtnStarDistance.IsDerivedStyle = true;
-            this.msBtnStarDistance.Location = new System.Drawing.Point(158, 104);
-            this.msBtnStarDistance.Name = "msBtnStarDistance";
-            this.msBtnStarDistance.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnStarDistance.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnStarDistance.NormalTextColor = System.Drawing.Color.White;
-            this.msBtnStarDistance.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.msBtnStarDistance.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.msBtnStarDistance.PressTextColor = System.Drawing.Color.White;
-            this.msBtnStarDistance.Size = new System.Drawing.Size(75, 36);
-            this.msBtnStarDistance.Style = MetroSet_UI.Enums.Style.Light;
-            this.msBtnStarDistance.StyleManager = null;
-            this.msBtnStarDistance.TabIndex = 31;
-            this.msBtnStarDistance.Text = "Calculate";
-            this.msBtnStarDistance.ThemeAuthor = "Narwin";
-            this.msBtnStarDistance.ThemeName = "MetroLite";
-            this.msBtnStarDistance.Click += new System.EventHandler(this.btnCalcStarDistance_Click);
-            // 
-            // msBtnTemperature
-            // 
-            this.msBtnTemperature.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnTemperature.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnTemperature.DisabledForeColor = System.Drawing.Color.Gray;
-            this.msBtnTemperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.msBtnTemperature.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.msBtnTemperature.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.msBtnTemperature.HoverTextColor = System.Drawing.Color.White;
-            this.msBtnTemperature.IsDerivedStyle = true;
-            this.msBtnTemperature.Location = new System.Drawing.Point(292, 104);
-            this.msBtnTemperature.Name = "msBtnTemperature";
-            this.msBtnTemperature.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnTemperature.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnTemperature.NormalTextColor = System.Drawing.Color.White;
-            this.msBtnTemperature.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.msBtnTemperature.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.msBtnTemperature.PressTextColor = System.Drawing.Color.White;
-            this.msBtnTemperature.Size = new System.Drawing.Size(75, 36);
-            this.msBtnTemperature.Style = MetroSet_UI.Enums.Style.Light;
-            this.msBtnTemperature.StyleManager = null;
-            this.msBtnTemperature.TabIndex = 32;
-            this.msBtnTemperature.Text = "Calculate";
-            this.msBtnTemperature.ThemeAuthor = "Narwin";
-            this.msBtnTemperature.ThemeName = "MetroLite";
-            this.msBtnTemperature.Click += new System.EventHandler(this.btnCalcTemperature_Click);
-            // 
-            // msBtnEventHorizon
-            // 
-            this.msBtnEventHorizon.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnEventHorizon.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnEventHorizon.DisabledForeColor = System.Drawing.Color.Gray;
-            this.msBtnEventHorizon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.msBtnEventHorizon.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.msBtnEventHorizon.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.msBtnEventHorizon.HoverTextColor = System.Drawing.Color.White;
-            this.msBtnEventHorizon.IsDerivedStyle = true;
-            this.msBtnEventHorizon.Location = new System.Drawing.Point(418, 104);
-            this.msBtnEventHorizon.Name = "msBtnEventHorizon";
-            this.msBtnEventHorizon.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnEventHorizon.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.msBtnEventHorizon.NormalTextColor = System.Drawing.Color.White;
-            this.msBtnEventHorizon.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.msBtnEventHorizon.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.msBtnEventHorizon.PressTextColor = System.Drawing.Color.White;
-            this.msBtnEventHorizon.Size = new System.Drawing.Size(75, 36);
-            this.msBtnEventHorizon.Style = MetroSet_UI.Enums.Style.Light;
-            this.msBtnEventHorizon.StyleManager = null;
-            this.msBtnEventHorizon.TabIndex = 33;
-            this.msBtnEventHorizon.Text = "Calculate";
-            this.msBtnEventHorizon.ThemeAuthor = "Narwin";
-            this.msBtnEventHorizon.ThemeName = "MetroLite";
-            this.msBtnEventHorizon.Click += new System.EventHandler(this.btnCalcEventHorizon_Click);
-            // 
-            // msBtnColour
-            // 
-            this.msBtnColour.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.msBtnColour.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
-            this.msBtnColour.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            this.msBtnColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.msBtnColour.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.msBtnColour.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.msBtnColour.HoverTextColor = System.Drawing.Color.White;
-            this.msBtnColour.IsDerivedStyle = true;
-            this.msBtnColour.Location = new System.Drawing.Point(225, 39);
-            this.msBtnColour.Name = "msBtnColour";
-            this.msBtnColour.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.msBtnColour.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.msBtnColour.NormalTextColor = System.Drawing.Color.Black;
-            this.msBtnColour.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.msBtnColour.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.msBtnColour.PressTextColor = System.Drawing.Color.White;
-            this.msBtnColour.Size = new System.Drawing.Size(75, 23);
-            this.msBtnColour.Style = MetroSet_UI.Enums.Style.Light;
-            this.msBtnColour.StyleManager = null;
-            this.msBtnColour.TabIndex = 28;
-            this.msBtnColour.Text = "Colour";
-            this.msBtnColour.ThemeAuthor = "Narwin";
-            this.msBtnColour.ThemeName = "MetroLite";
-            this.msBtnColour.Click += new System.EventHandler(this.msBtnColour_Click);
+            this.rbDarkMode.AutoSize = true;
+            this.rbDarkMode.Location = new System.Drawing.Point(129, 49);
+            this.rbDarkMode.Name = "rbDarkMode";
+            this.rbDarkMode.Size = new System.Drawing.Size(78, 17);
+            this.rbDarkMode.TabIndex = 5;
+            this.rbDarkMode.TabStop = true;
+            this.rbDarkMode.Text = "Dark Mode";
+            this.rbDarkMode.UseVisualStyleBackColor = true;
+            this.rbDarkMode.CheckedChanged += new System.EventHandler(this.ChangeTheme);
             // 
             // AstroClient
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(553, 508);
-            this.Controls.Add(this.msBtnColour);
-            this.Controls.Add(this.metroSetTabControl1);
-            this.Controls.Add(this.metroSetControlBox1);
+            this.ClientSize = new System.Drawing.Size(560, 476);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.tbStarVelocity01);
+            this.Controls.Add(this.tbStarVelocity02);
+            this.Controls.Add(this.tbTemperature);
+            this.Controls.Add(this.tbStarDistance);
+            this.Controls.Add(this.tbEventHorizon);
+            this.Controls.Add(this.lvResults);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AstroClient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Astro Client";
-            this.metroSetTabControl1.ResumeLayout(false);
-            this.msstEnglish.ResumeLayout(false);
-            this.msstEnglish.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.ListView lvResults;
-        private System.Windows.Forms.TextBox tbEventHorizon;
-        private System.Windows.Forms.TextBox tbTemperature;
-        private System.Windows.Forms.TextBox tbStarDistance;
         private System.Windows.Forms.TextBox tbStarVelocity01;
         private System.Windows.Forms.TextBox tbStarVelocity02;
+        private System.Windows.Forms.TextBox tbTemperature;
+        private System.Windows.Forms.TextBox tbStarDistance;
+        private System.Windows.Forms.TextBox tbEventHorizon;
+        private System.Windows.Forms.ListView lvResults;
         private System.Windows.Forms.ColumnHeader colStarVelocity;
         private System.Windows.Forms.ColumnHeader colStarDistance;
         private System.Windows.Forms.ColumnHeader colTemperature;
         private System.Windows.Forms.ColumnHeader colEventHorizon;
-        private MetroSet_UI.Controls.MetroSetControlBox metroSetControlBox1;
-        private MetroSet_UI.Controls.MetroSetTabControl metroSetTabControl1;
-        private MetroSet_UI.Child.MetroSetSetTabPage msstEnglish;
-        private MetroSet_UI.Child.MetroSetSetTabPage msstFrench;
-        private MetroSet_UI.Child.MetroSetSetTabPage msstGerman;
-        private MetroSet_UI.Controls.MetroSetLabel mslStarVelocity;
-        private MetroSet_UI.Controls.MetroSetLabel mslTemperature;
-        private MetroSet_UI.Controls.MetroSetLabel mslStarDistance;
-        private MetroSet_UI.Controls.MetroSetButton msBtnEventHorizon;
-        private MetroSet_UI.Controls.MetroSetButton msBtnTemperature;
-        private MetroSet_UI.Controls.MetroSetButton msBtnStarDistance;
-        private MetroSet_UI.Controls.MetroSetButton msBtnStarVelocity;
-        private MetroSet_UI.Controls.MetroSetLabel mslEventHorizon;
-        private MetroSet_UI.Controls.MetroSetDefaultButton msBtnColour;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnFontColour;
+        private System.Windows.Forms.Button btnBackColour;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.RadioButton rbDarkMode;
+        private System.Windows.Forms.RadioButton rbLightMode;
     }
 }
 

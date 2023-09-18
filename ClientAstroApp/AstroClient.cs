@@ -6,11 +6,10 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using AstroMath;
-using MetroSet_UI.Forms;
 
 namespace ClientAstroApp
 {
-    public partial class AstroClient : MetroSetForm
+    public partial class AstroClient : Form
     {
 
         // Mauriza Arianne P252069
@@ -155,7 +154,7 @@ namespace ClientAstroApp
             }
         }
 
-        private void msBtnColour_Click(object sender, EventArgs e)
+        private void btnBackColour_Click(object sender, EventArgs e)
         {
             using (ColorDialog colorDialog = new ColorDialog())
             {
@@ -169,10 +168,38 @@ namespace ClientAstroApp
                 if (result == DialogResult.OK)
                 {
                     this.BackColor = colorDialog.Color;
-                    tbStarDistance.Text = this.BackColor.ToString();
                 }
             }
+        }
+        private void btnFontColour_Click(object sender, EventArgs e)
+        {
+            using (ColorDialog colorDialog = new ColorDialog())
+            {
+                // Set the initial color to the current form's background color
+                colorDialog.Color = this.ForeColor;
 
+                // Show the color dialog and get the result
+                DialogResult result = colorDialog.ShowDialog();
+
+                // If the user clicked OK, change the form's background color to the selected color
+                if (result == DialogResult.OK)
+                {
+                    this.ForeColor = colorDialog.Color;
+                }
+            }
+        }
+
+        private void ChangeTheme(object sender, EventArgs e)
+        {
+            if (rbLightMode.Checked == true)
+            {
+                this.BackColor = SystemColors.ControlLightLight;
+            }
+            else if (rbDarkMode.Checked == true)
+            {
+                this.BackColor = SystemColors.ControlDarkDark;
+            }
         }
     }
+
 }
