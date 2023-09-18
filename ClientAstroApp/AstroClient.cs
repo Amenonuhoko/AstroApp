@@ -15,12 +15,12 @@ namespace ClientAstroApp
         // Mauriza Arianne P252069
         // AT2
 
-        private IAstroContract channel; // Declare the channel as a member of the class
+        private IAstroContract channel; 
 
         public AstroClient()
         {
             InitializeComponent();
-            InitializeChannel(); // Initialize the channel when the form is created
+            InitializeChannel();
         }
 
         private void InitializeChannel()
@@ -29,7 +29,6 @@ namespace ClientAstroApp
             NetNamedPipeBinding binding = new NetNamedPipeBinding(NetNamedPipeSecurityMode.None);
             EndpointAddress ep = new EndpointAddress(address);
 
-            // Create the channel using ChannelFactory and store it in the member variable
             channel = ChannelFactory<IAstroContract>.CreateChannel(binding, ep);
         }
 
@@ -199,6 +198,11 @@ namespace ClientAstroApp
             {
                 this.BackColor = SystemColors.ControlDarkDark;
             }
+        }
+
+        private void ChangeLanguage()
+        {
+
         }
     }
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AstroClient));
             this.tbStarVelocity01 = new System.Windows.Forms.TextBox();
             this.tbStarVelocity02 = new System.Windows.Forms.TextBox();
             this.tbTemperature = new System.Windows.Forms.TextBox();
@@ -47,12 +48,16 @@
             this.btnFontColour = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.rbLightMode = new System.Windows.Forms.RadioButton();
             this.rbDarkMode = new System.Windows.Forms.RadioButton();
+            this.btnLanguagesEnglish = new System.Windows.Forms.Button();
+            this.btnLanguagesFrench = new System.Windows.Forms.Button();
+            this.grpLanguage = new System.Windows.Forms.GroupBox();
+            this.btnLanguagesGerman = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            this.grpLanguage.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbStarVelocity01
@@ -232,15 +237,6 @@
             this.label1.TabIndex = 47;
             this.label1.Text = "Star Velocity";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 28);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 13);
-            this.label3.TabIndex = 48;
-            this.label3.Text = "TODO ADD LANGUAGES";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -283,15 +279,57 @@
             this.rbDarkMode.UseVisualStyleBackColor = true;
             this.rbDarkMode.CheckedChanged += new System.EventHandler(this.ChangeTheme);
             // 
+            // btnLanguagesEnglish
+            // 
+            this.btnLanguagesEnglish.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLanguagesEnglish.BackgroundImage")));
+            this.btnLanguagesEnglish.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLanguagesEnglish.Location = new System.Drawing.Point(6, 18);
+            this.btnLanguagesEnglish.Name = "btnLanguagesEnglish";
+            this.btnLanguagesEnglish.Size = new System.Drawing.Size(75, 48);
+            this.btnLanguagesEnglish.TabIndex = 52;
+            this.btnLanguagesEnglish.UseVisualStyleBackColor = true;
+            // 
+            // btnLanguagesFrench
+            // 
+            this.btnLanguagesFrench.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLanguagesFrench.BackgroundImage")));
+            this.btnLanguagesFrench.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLanguagesFrench.Location = new System.Drawing.Point(87, 18);
+            this.btnLanguagesFrench.Name = "btnLanguagesFrench";
+            this.btnLanguagesFrench.Size = new System.Drawing.Size(75, 48);
+            this.btnLanguagesFrench.TabIndex = 53;
+            this.btnLanguagesFrench.UseVisualStyleBackColor = true;
+            // 
+            // grpLanguage
+            // 
+            this.grpLanguage.Controls.Add(this.btnLanguagesGerman);
+            this.grpLanguage.Controls.Add(this.btnLanguagesEnglish);
+            this.grpLanguage.Controls.Add(this.btnLanguagesFrench);
+            this.grpLanguage.Location = new System.Drawing.Point(15, 12);
+            this.grpLanguage.Name = "grpLanguage";
+            this.grpLanguage.Size = new System.Drawing.Size(249, 76);
+            this.grpLanguage.TabIndex = 54;
+            this.grpLanguage.TabStop = false;
+            this.grpLanguage.Text = "Languages";
+            // 
+            // btnLanguagesGerman
+            // 
+            this.btnLanguagesGerman.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLanguagesGerman.BackgroundImage")));
+            this.btnLanguagesGerman.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLanguagesGerman.Location = new System.Drawing.Point(168, 18);
+            this.btnLanguagesGerman.Name = "btnLanguagesGerman";
+            this.btnLanguagesGerman.Size = new System.Drawing.Size(75, 48);
+            this.btnLanguagesGerman.TabIndex = 54;
+            this.btnLanguagesGerman.UseVisualStyleBackColor = true;
+            // 
             // AstroClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(560, 476);
+            this.Controls.Add(this.grpLanguage);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button4);
@@ -310,6 +348,7 @@
             this.Text = "Astro Client";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.grpLanguage.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -334,12 +373,15 @@
         private System.Windows.Forms.Button btnFontColour;
         private System.Windows.Forms.Button btnBackColour;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.RadioButton rbDarkMode;
         private System.Windows.Forms.RadioButton rbLightMode;
+        private System.Windows.Forms.Button btnLanguagesEnglish;
+        private System.Windows.Forms.Button btnLanguagesFrench;
+        private System.Windows.Forms.GroupBox grpLanguage;
+        private System.Windows.Forms.Button btnLanguagesGerman;
     }
 }
 
