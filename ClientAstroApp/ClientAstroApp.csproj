@@ -60,6 +60,18 @@
     <Compile Include="IAstroContract.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AstroClient.de-DE.resx">
+      <DependentUpon>AstroClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AstroClient.en.resx">
+      <DependentUpon>AstroClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AstroClient.fr-FR.resx">
+      <DependentUpon>AstroClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AstroClient.nl-NL.resx">
+      <DependentUpon>AstroClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AstroClient.resx">
       <DependentUpon>AstroClient.cs</DependentUpon>
     </EmbeddedResource>

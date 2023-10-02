@@ -6,6 +6,9 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using AstroMath;
+using System.ComponentModel;
+using System.Globalization;
+using System.Threading;
 
 namespace ClientAstroApp
 {
@@ -15,12 +18,13 @@ namespace ClientAstroApp
         // Mauriza Arianne P252069
         // AT2
 
-        private IAstroContract channel; 
+        private IAstroContract channel;
 
         public AstroClient()
         {
             InitializeComponent();
             InitializeChannel();
+            ApplyDarkModeToControls(this);
         }
 
         private void InitializeChannel()
@@ -44,11 +48,15 @@ namespace ClientAstroApp
         //4.	Menu option to change the form’s style (colours and visual appearance).
         //5.	Menu/Button option to select a custom background colour from a colour palette(Color Dialogbox)
 
+
+        #region Methods
+
         public void AddToListView(int columnNumber, string value)
         {
 
             bool valueAdded = false;
-
+            // loop through and see if entry is emptry string
+            // if it is replace it with value
             foreach (ListViewItem item in lvResults.Items)
             {
                 if (string.IsNullOrEmpty(item.SubItems[columnNumber - 1].Text))
@@ -67,21 +75,22 @@ namespace ClientAstroApp
             }
         }
 
-
+        #region Clicks
         private void btnCalcStarVelocity_Click(object sender, EventArgs e)
         {
             try
             {
+                // check if both are empty
                 if (string.IsNullOrWhiteSpace(tbStarVelocity01.Text) || string.IsNullOrWhiteSpace(tbStarVelocity02.Text))
                 {
                     MessageBox.Show("Please enter values in both fields.");
                     return;
                 }
-
+                // convert to double
                 double val1 = Convert.ToDouble(tbStarVelocity01.Text);
                 double val2 = Convert.ToDouble(tbStarVelocity02.Text);
                 double result = channel.StarVelocity(val1, val2);
-
+                // add to lv
                 AddToListView(1, result.ToString());
             }
             catch (FormatException)
@@ -94,6 +103,7 @@ namespace ClientAstroApp
         {
             try
             {
+                // check empty
                 if (string.IsNullOrWhiteSpace(tbStarDistance.Text))
                 {
                     MessageBox.Show("Please enter a value.");
@@ -102,7 +112,7 @@ namespace ClientAstroApp
 
                 double value = Convert.ToDouble(tbStarDistance.Text);
                 double result = channel.StarDistance(value);
-
+                // add
                 AddToListView(2, result.ToString());
             }
             catch (FormatException)
@@ -115,6 +125,7 @@ namespace ClientAstroApp
         {
             try
             {
+                // same
                 if (string.IsNullOrWhiteSpace(tbTemperature.Text))
                 {
                     MessageBox.Show("Please enter a value.");
@@ -136,6 +147,7 @@ namespace ClientAstroApp
         {
             try
             {
+                // same
                 if (string.IsNullOrWhiteSpace(tbEventHorizon.Text))
                 {
                     MessageBox.Show("Please enter a value.");
@@ -152,18 +164,21 @@ namespace ClientAstroApp
                 MessageBox.Show("Invalid input. Please enter a valid number.");
             }
         }
+        #endregion
 
+        #endregion
+
+        #region Colours
         private void btnBackColour_Click(object sender, EventArgs e)
         {
+            // use using so it closes correctly
             using (ColorDialog colorDialog = new ColorDialog())
             {
-                // Set the initial color to the current form's background color
+                // add current colour
                 colorDialog.Color = this.BackColor;
 
-                // Show the color dialog and get the result
                 DialogResult result = colorDialog.ShowDialog();
-
-                // If the user clicked OK, change the form's background color to the selected color
+                // if ok change to selected colour
                 if (result == DialogResult.OK)
                 {
                     this.BackColor = colorDialog.Color;
@@ -172,15 +187,13 @@ namespace ClientAstroApp
         }
         private void btnFontColour_Click(object sender, EventArgs e)
         {
+            // same basically
             using (ColorDialog colorDialog = new ColorDialog())
             {
-                // Set the initial color to the current form's background color
                 colorDialog.Color = this.ForeColor;
 
-                // Show the color dialog and get the result
                 DialogResult result = colorDialog.ShowDialog();
 
-                // If the user clicked OK, change the form's background color to the selected color
                 if (result == DialogResult.OK)
                 {
                     this.ForeColor = colorDialog.Color;
@@ -190,19 +203,123 @@ namespace ClientAstroApp
 
         private void ChangeTheme(object sender, EventArgs e)
         {
+            // if checked go to func
             if (rbLightMode.Checked == true)
             {
-                this.BackColor = SystemColors.ControlLightLight;
+                ApplyLightModeToControls(this);
             }
             else if (rbDarkMode.Checked == true)
             {
-                this.BackColor = SystemColors.ControlDarkDark;
+                ApplyDarkModeToControls(this);
+            }
+        }
+        private void ApplyLightModeToControls(Control control)
+        {
+            // change everything
+            this.BackColor = Color.FromArgb(240, 240, 240);
+            this.ForeColor = Color.FromArgb(41, 128, 185);
+            lvResults.BackColor = Color.FromArgb(250, 250, 250);
+            lvResults.ForeColor = Color.FromArgb(41, 128, 185);
+            grpColours.ForeColor = Color.FromArgb(41, 128, 185);
+            grpLanguage.ForeColor = Color.FromArgb(41, 128, 185);
+
+            // loop through all buttons and change colour
+            foreach (Control childControl in control.Controls)
+            {
+
+                if (childControl is System.Windows.Forms.Button)
+                {
+                    System.Windows.Forms.Button button = (System.Windows.Forms.Button)childControl;
+                    button.BackColor = Color.FromArgb(220, 220, 220);
+                    button.ForeColor = Color.FromArgb(41, 128, 185);
+                }
+
+                ApplyLightModeToControls(childControl);
+            }
+        }
+        private void ApplyDarkModeToControls(Control control)
+        {
+            // same
+            this.BackColor = Color.FromArgb(30, 30, 30);
+            this.ForeColor = Color.White;
+            lvResults.BackColor = Color.FromArgb(50, 50, 50);
+            lvResults.ForeColor = Color.White;
+            grpColours.ForeColor = Color.White;
+            grpLanguage.ForeColor = Color.White;
+
+            foreach (Control childControl in control.Controls)
+            {
+                if (childControl is System.Windows.Forms.Button)
+                {
+                    System.Windows.Forms.Button button = (System.Windows.Forms.Button)childControl;
+                    button.BackColor = Color.FromArgb(50, 50, 50);
+                    button.ForeColor = Color.White;
+                }
+
+                ApplyDarkModeToControls(childControl);
             }
         }
 
-        private void ChangeLanguage()
-        {
+        #endregion
 
+        #region Languages
+        private void btnLanguagesFrench_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("fr-FR");
+            Controls.Clear();
+            InitializeComponent();
+            if (rbLightMode.Checked == true)
+            {
+                ApplyLightModeToControls(this);
+            }
+            else if (rbDarkMode.Checked == true)
+            {
+                ApplyDarkModeToControls(this);
+            }
+            else
+            {
+                ApplyDarkModeToControls(this);
+            }
+        }
+
+        private void btnLanguagesEnglish_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+            Controls.Clear();
+            InitializeComponent();
+            if (rbLightMode.Checked == true)
+            {
+                ApplyLightModeToControls(this);
+            }
+            else if (rbDarkMode.Checked == true)
+            {
+                ApplyDarkModeToControls(this);
+            }
+            else
+            {
+                ApplyDarkModeToControls(this);
+            }
+        }
+
+        #endregion
+
+        private void btnLanguagesGerman_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("de-DE");
+            Controls.Clear();
+            InitializeComponent();
+            if (rbLightMode.Checked == true)
+            {
+                ApplyLightModeToControls(this);
+            }
+            else if (rbDarkMode.Checked == true)
+            {
+                ApplyDarkModeToControls(this);
+            }
+            else
+            {
+                ApplyDarkModeToControls(this);
+            }
         }
     }
 
