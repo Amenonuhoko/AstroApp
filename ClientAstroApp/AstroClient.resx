@@ -414,6 +414,78 @@
   <data name="&gt;&gt;btnCalcStarVelocity.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="&gt;&gt;rbDarkMode.Name" xml:space="preserve">
+    <value>rbDarkMode</value>
+  </data>
+  <data name="&gt;&gt;rbDarkMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbDarkMode.Parent" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;rbDarkMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbLightMode.Name" xml:space="preserve">
+    <value>rbLightMode</value>
+  </data>
+  <data name="&gt;&gt;rbLightMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbLightMode.Parent" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;rbLightMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnBackColour.Name" xml:space="preserve">
+    <value>btnBackColour</value>
+  </data>
+  <data name="&gt;&gt;btnBackColour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBackColour.Parent" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;btnBackColour.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnFontColour.Name" xml:space="preserve">
+    <value>btnFontColour</value>
+  </data>
+  <data name="&gt;&gt;btnFontColour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFontColour.Parent" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;btnFontColour.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpColours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 30</value>
+  </data>
+  <data name="grpColours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 76</value>
+  </data>
+  <data name="grpColours.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="grpColours.Text" xml:space="preserve">
+    <value>Colours</value>
+  </data>
+  <data name="&gt;&gt;grpColours.Name" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;grpColours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpColours.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpColours.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="rbDarkMode.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -515,30 +587,6 @@
   </data>
   <data name="&gt;&gt;btnFontColour.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="grpColours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 30</value>
-  </data>
-  <data name="grpColours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 76</value>
-  </data>
-  <data name="grpColours.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="grpColours.Text" xml:space="preserve">
-    <value>Colours</value>
-  </data>
-  <data name="&gt;&gt;grpColours.Name" xml:space="preserve">
-    <value>grpColours</value>
-  </data>
-  <data name="&gt;&gt;grpColours.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpColours.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grpColours.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="lblEventHorizon.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -802,6 +850,54 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="backgroundColourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="backgroundColourToolStripMenuItem.Text" xml:space="preserve">
+    <value>Background Colour</value>
+  </data>
+  <data name="fontColourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="fontColourToolStripMenuItem.Text" xml:space="preserve">
+    <value>Font Colour</value>
+  </data>
+  <data name="lightModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="lightModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Light Mode</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dark Mode</value>
+  </data>
+  <data name="modeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="modeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="coloursToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="coloursToolStripMenuItem.Text" xml:space="preserve">
+    <value>Colours</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -826,24 +922,6 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="toolStripMenuItem1.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 20</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="coloursToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
-  </data>
-  <data name="coloursToolStripMenuItem.Text" xml:space="preserve">
-    <value>Colours</value>
-  </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
@@ -867,36 +945,6 @@
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Exit</value>
-  </data>
-  <data name="backgroundColourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="backgroundColourToolStripMenuItem.Text" xml:space="preserve">
-    <value>Background Colour</value>
-  </data>
-  <data name="fontColourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="fontColourToolStripMenuItem.Text" xml:space="preserve">
-    <value>Font Colour</value>
-  </data>
-  <data name="modeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="modeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mode</value>
-  </data>
-  <data name="lightModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="lightModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Light Mode</value>
-  </data>
-  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dark Mode</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
