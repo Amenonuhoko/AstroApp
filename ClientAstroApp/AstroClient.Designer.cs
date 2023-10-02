@@ -56,8 +56,22 @@
             this.btnLanguagesFrench = new System.Windows.Forms.Button();
             this.grpLanguage = new System.Windows.Forms.GroupBox();
             this.btnLanguagesGerman = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.coloursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.germanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundColourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontColourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lightModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.darkModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grpColours.SuspendLayout();
             this.grpLanguage.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbStarVelocity01
@@ -87,13 +101,13 @@
             // 
             // lvResults
             // 
-            resources.ApplyResources(this.lvResults, "lvResults");
             this.lvResults.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.colStarVelocity,
             this.colStarDistance,
             this.colTemperature,
             this.colEventHorizon});
             this.lvResults.HideSelection = false;
+            resources.ApplyResources(this.lvResults, "lvResults");
             this.lvResults.Name = "lvResults";
             this.lvResults.UseCompatibleStateImageBehavior = false;
             this.lvResults.View = System.Windows.Forms.View.Details;
@@ -144,17 +158,18 @@
             // 
             // grpColours
             // 
-            resources.ApplyResources(this.grpColours, "grpColours");
             this.grpColours.Controls.Add(this.rbDarkMode);
             this.grpColours.Controls.Add(this.rbLightMode);
             this.grpColours.Controls.Add(this.btnBackColour);
             this.grpColours.Controls.Add(this.btnFontColour);
+            resources.ApplyResources(this.grpColours, "grpColours");
             this.grpColours.Name = "grpColours";
             this.grpColours.TabStop = false;
             // 
             // rbDarkMode
             // 
             resources.ApplyResources(this.rbDarkMode, "rbDarkMode");
+            this.rbDarkMode.Checked = true;
             this.rbDarkMode.Name = "rbDarkMode";
             this.rbDarkMode.TabStop = true;
             this.rbDarkMode.UseVisualStyleBackColor = true;
@@ -218,10 +233,10 @@
             // 
             // grpLanguage
             // 
-            resources.ApplyResources(this.grpLanguage, "grpLanguage");
             this.grpLanguage.Controls.Add(this.btnLanguagesGerman);
             this.grpLanguage.Controls.Add(this.btnLanguagesEnglish);
             this.grpLanguage.Controls.Add(this.btnLanguagesFrench);
+            resources.ApplyResources(this.grpLanguage, "grpLanguage");
             this.grpLanguage.Name = "grpLanguage";
             this.grpLanguage.TabStop = false;
             // 
@@ -231,6 +246,96 @@
             this.btnLanguagesGerman.Name = "btnLanguagesGerman";
             this.btnLanguagesGerman.UseVisualStyleBackColor = true;
             this.btnLanguagesGerman.Click += new System.EventHandler(this.btnLanguagesGerman_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.languageToolStripMenuItem,
+            this.coloursToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.Name = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exitToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            // 
+            // languageToolStripMenuItem
+            // 
+            this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.englishToolStripMenuItem,
+            this.frenchToolStripMenuItem,
+            this.germanToolStripMenuItem});
+            this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
+            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
+            // 
+            // coloursToolStripMenuItem
+            // 
+            this.coloursToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.backgroundColourToolStripMenuItem,
+            this.fontColourToolStripMenuItem,
+            this.modeToolStripMenuItem});
+            this.coloursToolStripMenuItem.Name = "coloursToolStripMenuItem";
+            resources.ApplyResources(this.coloursToolStripMenuItem, "coloursToolStripMenuItem");
+            // 
+            // englishToolStripMenuItem
+            // 
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
+            // 
+            // frenchToolStripMenuItem
+            // 
+            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
+            resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
+            this.frenchToolStripMenuItem.Click += new System.EventHandler(this.frenchToolStripMenuItem_Click);
+            // 
+            // germanToolStripMenuItem
+            // 
+            this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
+            resources.ApplyResources(this.germanToolStripMenuItem, "germanToolStripMenuItem");
+            this.germanToolStripMenuItem.Click += new System.EventHandler(this.germanToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // backgroundColourToolStripMenuItem
+            // 
+            this.backgroundColourToolStripMenuItem.Name = "backgroundColourToolStripMenuItem";
+            resources.ApplyResources(this.backgroundColourToolStripMenuItem, "backgroundColourToolStripMenuItem");
+            this.backgroundColourToolStripMenuItem.Click += new System.EventHandler(this.backgroundColourToolStripMenuItem_Click);
+            // 
+            // fontColourToolStripMenuItem
+            // 
+            this.fontColourToolStripMenuItem.Name = "fontColourToolStripMenuItem";
+            resources.ApplyResources(this.fontColourToolStripMenuItem, "fontColourToolStripMenuItem");
+            this.fontColourToolStripMenuItem.Click += new System.EventHandler(this.fontColourToolStripMenuItem_Click);
+            // 
+            // modeToolStripMenuItem
+            // 
+            this.modeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lightModeToolStripMenuItem,
+            this.darkModeToolStripMenuItem});
+            this.modeToolStripMenuItem.Name = "modeToolStripMenuItem";
+            resources.ApplyResources(this.modeToolStripMenuItem, "modeToolStripMenuItem");
+            // 
+            // lightModeToolStripMenuItem
+            // 
+            this.lightModeToolStripMenuItem.Name = "lightModeToolStripMenuItem";
+            resources.ApplyResources(this.lightModeToolStripMenuItem, "lightModeToolStripMenuItem");
+            this.lightModeToolStripMenuItem.Click += new System.EventHandler(this.lightModeToolStripMenuItem_Click);
+            // 
+            // darkModeToolStripMenuItem
+            // 
+            this.darkModeToolStripMenuItem.Name = "darkModeToolStripMenuItem";
+            resources.ApplyResources(this.darkModeToolStripMenuItem, "darkModeToolStripMenuItem");
+            this.darkModeToolStripMenuItem.Click += new System.EventHandler(this.darkModeToolStripMenuItem_Click);
             // 
             // AstroClient
             // 
@@ -252,10 +357,14 @@
             this.Controls.Add(this.tbStarDistance);
             this.Controls.Add(this.tbEventHorizon);
             this.Controls.Add(this.lvResults);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "AstroClient";
             this.grpColours.ResumeLayout(false);
             this.grpColours.PerformLayout();
             this.grpLanguage.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,6 +398,19 @@
         private System.Windows.Forms.Button btnLanguagesFrench;
         private System.Windows.Forms.GroupBox grpLanguage;
         private System.Windows.Forms.Button btnLanguagesGerman;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem frenchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem germanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem coloursToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backgroundColourToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fontColourToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lightModeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem darkModeToolStripMenuItem;
     }
 }
 

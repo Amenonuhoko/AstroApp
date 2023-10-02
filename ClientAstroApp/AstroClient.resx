@@ -118,124 +118,535 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>560, 476</value>
+  <data name="tbStarVelocity01.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
-  <data name="&gt;&gt;btnLanguagesFrench.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tbStarVelocity01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 133</value>
   </data>
-  <data name="&gt;&gt;btnBackColour.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lblTemperature.Text" xml:space="preserve">
-    <value>Temperature</value>
-  </data>
-  <data name="tbStarDistance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 31</value>
-  </data>
-  <data name="&gt;&gt;rbDarkMode.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;grpColours.Name" xml:space="preserve">
-    <value>grpColours</value>
-  </data>
-  <data name="btnCalcStarVelocity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 42</value>
-  </data>
-  <data name="&gt;&gt;btnCalcStarVelocity.Parent" xml:space="preserve">
-    <value>$this</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbStarVelocity01.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="tbStarVelocity01.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 31</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tbStarDistance.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
+  <data name="tbStarVelocity01.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
   </data>
-  <data name="grpColours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 12</value>
+  <data name="tbStarVelocity01.Text" xml:space="preserve">
+    <value>500.1</value>
   </data>
-  <data name="&gt;&gt;colTemperature.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tbStarVelocity01.Name" xml:space="preserve">
+    <value>tbStarVelocity01</value>
   </data>
-  <data name="rbLightMode.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;tbStarVelocity01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;grpLanguage.Name" xml:space="preserve">
-    <value>grpLanguage</value>
-  </data>
-  <data name="&gt;&gt;btnCalcEventHorizon.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;tbEventHorizon.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tbStarVelocity01.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;grpColours.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tbStarVelocity01.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;btnLanguagesGerman.Name" xml:space="preserve">
-    <value>btnLanguagesGerman</value>
+  <data name="tbStarVelocity02.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="tbStarVelocity02.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 133</value>
+  </data>
+  <data name="tbStarVelocity02.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tbStarVelocity02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 31</value>
+  </data>
+  <data name="tbStarVelocity02.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="tbStarVelocity02.Text" xml:space="preserve">
+    <value>500.0</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocity02.Name" xml:space="preserve">
+    <value>tbStarVelocity02</value>
+  </data>
+  <data name="&gt;&gt;tbStarVelocity02.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tbStarVelocity02.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="grpLanguage.Text" xml:space="preserve">
-    <value>Languages</value>
+  <data name="&gt;&gt;tbStarVelocity02.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="lblEventHorizon.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
+  <data name="tbTemperature.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
-  <data name="lvResults.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
+  <data name="tbTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 133</value>
   </data>
-  <data name="tbTemperature.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="lblTemperature.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tbTemperature.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="tbTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 31</value>
   </data>
-  <data name="lblStarDistance.Text" xml:space="preserve">
-    <value>Star Distance</value>
+  <data name="tbTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
   </data>
-  <data name="&gt;&gt;btnCalcStarDistance.Name" xml:space="preserve">
-    <value>btnCalcStarDistance</value>
+  <data name="tbTemperature.Text" xml:space="preserve">
+    <value>27</value>
   </data>
-  <data name="btnCalcEventHorizon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>413, 151</value>
+  <data name="&gt;&gt;tbTemperature.Name" xml:space="preserve">
+    <value>tbTemperature</value>
   </data>
-  <data name="&gt;&gt;lvResults.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tbTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTemperature.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbTemperature.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tbStarDistance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="tbStarDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 133</value>
+  </data>
+  <data name="tbStarDistance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tbStarDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 31</value>
+  </data>
+  <data name="tbStarDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="tbStarDistance.Text" xml:space="preserve">
+    <value>0.547</value>
+  </data>
+  <data name="&gt;&gt;tbStarDistance.Name" xml:space="preserve">
+    <value>tbStarDistance</value>
+  </data>
+  <data name="&gt;&gt;tbStarDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbStarDistance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbStarDistance.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tbEventHorizon.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="tbEventHorizon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 133</value>
+  </data>
+  <data name="tbEventHorizon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tbEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 31</value>
+  </data>
+  <data name="tbEventHorizon.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
   </data>
   <data name="tbEventHorizon.Text" xml:space="preserve">
     <value>8.2e36</value>
   </data>
-  <data name="btnLanguagesFrench.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAUAAAADVBAMAAADUYjTdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEUAJlRUbYz////eYG7OESZmtw3f
-        AAAAB3RJTUUH5wcOBicj6UWVHAAAAKlJREFUeNrtzkERACAMAzA0IAGs1L+meejtmSjIqdxX+GkICgoK
-        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
-        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
-        CgoKCgoKCgruBZMBCsiixesmyF8AAAAASUVORK5CYII=
-</value>
+  <data name="&gt;&gt;tbEventHorizon.Name" xml:space="preserve">
+    <value>tbEventHorizon</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbEventHorizon.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lvResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 231</value>
+  </data>
+  <data name="lvResults.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="lvResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 246</value>
+  </data>
+  <data name="lvResults.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;lvResults.Name" xml:space="preserve">
+    <value>lvResults</value>
+  </data>
+  <data name="&gt;&gt;lvResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvResults.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lvResults.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="colStarVelocity.Text" xml:space="preserve">
+    <value>Star Velocity</value>
+  </data>
+  <data name="colStarVelocity.Width" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="colStarDistance.Text" xml:space="preserve">
+    <value>Star Distance</value>
+  </data>
+  <data name="colStarDistance.Width" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="colTemperature.Text" xml:space="preserve">
+    <value>Temperature in Kelvin</value>
+  </data>
+  <data name="colTemperature.Width" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="colEventHorizon.Text" xml:space="preserve">
+    <value>Event Horizon</value>
+  </data>
+  <data name="colEventHorizon.Width" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="btnCalcStarDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 169</value>
+  </data>
+  <data name="btnCalcStarDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 42</value>
+  </data>
+  <data name="btnCalcStarDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnCalcStarDistance.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;btnCalcStarDistance.Name" xml:space="preserve">
+    <value>btnCalcStarDistance</value>
+  </data>
+  <data name="&gt;&gt;btnCalcStarDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalcStarDistance.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCalcStarDistance.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="btnCalcTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 169</value>
+  </data>
+  <data name="btnCalcTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 42</value>
+  </data>
+  <data name="btnCalcTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btnCalcTemperature.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;btnCalcTemperature.Name" xml:space="preserve">
+    <value>btnCalcTemperature</value>
+  </data>
+  <data name="&gt;&gt;btnCalcTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalcTemperature.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCalcTemperature.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCalcEventHorizon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 169</value>
+  </data>
+  <data name="btnCalcEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 42</value>
+  </data>
+  <data name="btnCalcEventHorizon.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="btnCalcEventHorizon.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;btnCalcEventHorizon.Name" xml:space="preserve">
+    <value>btnCalcEventHorizon</value>
+  </data>
+  <data name="&gt;&gt;btnCalcEventHorizon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalcEventHorizon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCalcEventHorizon.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnCalcStarVelocity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 169</value>
+  </data>
+  <data name="btnCalcStarVelocity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 42</value>
+  </data>
+  <data name="btnCalcStarVelocity.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="btnCalcStarVelocity.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;btnCalcStarVelocity.Name" xml:space="preserve">
+    <value>btnCalcStarVelocity</value>
+  </data>
+  <data name="&gt;&gt;btnCalcStarVelocity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalcStarVelocity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCalcStarVelocity.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="rbDarkMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbDarkMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 48</value>
+  </data>
+  <data name="rbDarkMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="rbDarkMode.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbDarkMode.Text" xml:space="preserve">
+    <value>Dark Mode</value>
+  </data>
+  <data name="&gt;&gt;rbDarkMode.Name" xml:space="preserve">
+    <value>rbDarkMode</value>
+  </data>
+  <data name="&gt;&gt;rbDarkMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbDarkMode.Parent" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;rbDarkMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbLightMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbLightMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="rbLightMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="rbLightMode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbLightMode.Text" xml:space="preserve">
+    <value>Light Mode</value>
+  </data>
+  <data name="&gt;&gt;rbLightMode.Name" xml:space="preserve">
+    <value>rbLightMode</value>
+  </data>
+  <data name="&gt;&gt;rbLightMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbLightMode.Parent" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;rbLightMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBackColour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="btnBackColour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="btnBackColour.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnBackColour.Text" xml:space="preserve">
+    <value>Background Colour</value>
+  </data>
+  <data name="&gt;&gt;btnBackColour.Name" xml:space="preserve">
+    <value>btnBackColour</value>
+  </data>
+  <data name="&gt;&gt;btnBackColour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBackColour.Parent" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;btnBackColour.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnFontColour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="btnFontColour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="btnFontColour.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnFontColour.Text" xml:space="preserve">
+    <value>Font Colour</value>
+  </data>
+  <data name="&gt;&gt;btnFontColour.Name" xml:space="preserve">
+    <value>btnFontColour</value>
+  </data>
+  <data name="&gt;&gt;btnFontColour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFontColour.Parent" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;btnFontColour.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpColours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 30</value>
+  </data>
+  <data name="grpColours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 76</value>
+  </data>
+  <data name="grpColours.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="grpColours.Text" xml:space="preserve">
+    <value>Colours</value>
+  </data>
+  <data name="&gt;&gt;grpColours.Name" xml:space="preserve">
+    <value>grpColours</value>
+  </data>
+  <data name="&gt;&gt;grpColours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpColours.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpColours.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="lblEventHorizon.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblEventHorizon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 115</value>
+  </data>
+  <data name="lblEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="lblEventHorizon.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="lblEventHorizon.Text" xml:space="preserve">
+    <value>Event Horizon</value>
+  </data>
+  <data name="&gt;&gt;lblEventHorizon.Name" xml:space="preserve">
+    <value>lblEventHorizon</value>
+  </data>
+  <data name="&gt;&gt;lblEventHorizon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEventHorizon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEventHorizon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblStarVelocity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStarVelocity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 115</value>
+  </data>
+  <data name="lblStarVelocity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="lblStarVelocity.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="lblStarVelocity.Text" xml:space="preserve">
+    <value>Star Velocity</value>
+  </data>
+  <data name="&gt;&gt;lblStarVelocity.Name" xml:space="preserve">
+    <value>lblStarVelocity</value>
+  </data>
+  <data name="&gt;&gt;lblStarVelocity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStarVelocity.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;lblStarVelocity.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="btnLanguagesFrench.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 18</value>
+  <data name="lblStarDistance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;tbEventHorizon.Name" xml:space="preserve">
-    <value>tbEventHorizon</value>
+  <data name="lblStarDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 115</value>
+  </data>
+  <data name="lblStarDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="lblStarDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="lblStarDistance.Text" xml:space="preserve">
+    <value>Star Distance</value>
+  </data>
+  <data name="&gt;&gt;lblStarDistance.Name" xml:space="preserve">
+    <value>lblStarDistance</value>
+  </data>
+  <data name="&gt;&gt;lblStarDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStarDistance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblStarDistance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblTemperature.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 115</value>
+  </data>
+  <data name="lblTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lblTemperature.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="&gt;&gt;lblTemperature.Name" xml:space="preserve">
+    <value>lblTemperature</value>
+  </data>
+  <data name="&gt;&gt;lblTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTemperature.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTemperature.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="btnLanguagesEnglish.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -252,246 +663,99 @@
         OUgIw41GPwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="colEventHorizon.Width" type="System.Int32, mscorlib">
-    <value>124</value>
-  </data>
-  <data name="&gt;&gt;tbStarVelocity01.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnBackColour.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnFontColour.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 23</value>
-  </data>
-  <data name="&gt;&gt;rbLightMode.Parent" xml:space="preserve">
-    <value>grpColours</value>
-  </data>
-  <data name="grpColours.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="lblStarDistance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 13</value>
-  </data>
-  <data name="lblStarDistance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 97</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lvResults.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="btnCalcStarVelocity.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>AstroClient</value>
-  </data>
-  <data name="&gt;&gt;btnCalcEventHorizon.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnBackColour.Name" xml:space="preserve">
-    <value>btnBackColour</value>
-  </data>
-  <data name="&gt;&gt;lvResults.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnBackColour.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 23</value>
-  </data>
-  <data name="&gt;&gt;lblTemperature.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tbEventHorizon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>413, 115</value>
-  </data>
-  <data name="colEventHorizon.Text" xml:space="preserve">
-    <value>Event Horizon</value>
-  </data>
-  <data name="tbEventHorizon.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="colStarVelocity.Text" xml:space="preserve">
-    <value>Star Velocity</value>
-  </data>
-  <data name="tbStarVelocity01.Text" xml:space="preserve">
-    <value>500.1</value>
-  </data>
-  <data name="&gt;&gt;tbStarVelocity01.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="rbLightMode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnLanguagesGerman.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="lblStarDistance.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnLanguagesFrench.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblStarVelocity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnLanguagesGerman.TabIndex" type="System.Int32, mscorlib">
-    <value>54</value>
-  </data>
-  <data name="colStarDistance.Width" type="System.Int32, mscorlib">
-    <value>133</value>
-  </data>
-  <data name="&gt;&gt;lblTemperature.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lvResults.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="btnCalcEventHorizon.Text" xml:space="preserve">
-    <value>Calculate</value>
-  </data>
-  <data name="&gt;&gt;btnCalcStarDistance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbTemperature.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colStarDistance.Name" xml:space="preserve">
-    <value>colStarDistance</value>
-  </data>
-  <data name="btnFontColour.Text" xml:space="preserve">
-    <value>Font Colour</value>
-  </data>
-  <data name="rbDarkMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 17</value>
-  </data>
-  <data name="tbTemperature.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
   <data name="btnLanguagesEnglish.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="btnCalcStarVelocity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 151</value>
-  </data>
-  <data name="btnFontColour.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 47</value>
-  </data>
-  <data name="grpColours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 76</value>
-  </data>
-  <data name="&gt;&gt;lblStarDistance.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tbStarVelocity01.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="&gt;&gt;btnBackColour.Parent" xml:space="preserve">
-    <value>grpColours</value>
-  </data>
-  <data name="tbStarVelocity02.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
-  </data>
-  <data name="&gt;&gt;grpLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbStarVelocity02.Name" xml:space="preserve">
-    <value>tbStarVelocity02</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Astro Client</value>
-  </data>
-  <data name="&gt;&gt;btnCalcStarVelocity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbEventHorizon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lvResults.Size" type="System.Drawing.Size, System.Drawing">
-    <value>526, 252</value>
-  </data>
-  <data name="&gt;&gt;btnCalcStarVelocity.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="tbStarVelocity01.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="btnCalcEventHorizon.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="tbStarVelocity01.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 115</value>
+  <data name="btnLanguagesEnglish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
   </data>
   <data name="btnLanguagesEnglish.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 48</value>
   </data>
-  <data name="&gt;&gt;btnCalcStarDistance.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnLanguagesEnglish.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
   </data>
-  <data name="&gt;&gt;btnCalcTemperature.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnLanguagesEnglish.Name" xml:space="preserve">
+    <value>btnLanguagesEnglish</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesEnglish.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;colStarDistance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnLanguagesEnglish.Parent" xml:space="preserve">
+    <value>grpLanguage</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;btnLanguagesEnglish.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="tbStarVelocity02.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="btnLanguagesFrench.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAUAAAADVBAMAAADUYjTdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEUAJlRUbYz////eYG7OESZmtw3f
+        AAAAB3RJTUUH5wcOBicj6UWVHAAAAKlJREFUeNrtzkERACAMAzA0IAGs1L+meejtmSjIqdxX+GkICgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgruBZMBCsiixesmyF8AAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="&gt;&gt;rbDarkMode.Name" xml:space="preserve">
-    <value>rbDarkMode</value>
+  <data name="btnLanguagesFrench.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="&gt;&gt;tbStarDistance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnLanguagesFrench.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 18</value>
   </data>
-  <data name="&gt;&gt;tbStarVelocity01.Name" xml:space="preserve">
-    <value>tbStarVelocity01</value>
+  <data name="btnLanguagesFrench.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <data name="btnLanguagesFrench.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesFrench.Name" xml:space="preserve">
+    <value>btnLanguagesFrench</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesFrench.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesFrench.Parent" xml:space="preserve">
+    <value>grpLanguage</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesFrench.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesGerman.Name" xml:space="preserve">
+    <value>btnLanguagesGerman</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesGerman.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesGerman.Parent" xml:space="preserve">
+    <value>grpLanguage</value>
+  </data>
+  <data name="&gt;&gt;btnLanguagesGerman.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 30</value>
   </data>
   <data name="grpLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 76</value>
   </data>
-  <data name="&gt;&gt;lblTemperature.Name" xml:space="preserve">
-    <value>lblTemperature</value>
+  <data name="grpLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
   </data>
-  <data name="&gt;&gt;btnFontColour.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="grpLanguage.Text" xml:space="preserve">
+    <value>Languages</value>
   </data>
-  <data name="tbStarDistance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;grpLanguage.Name" xml:space="preserve">
+    <value>grpLanguage</value>
   </data>
-  <data name="tbStarVelocity02.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 115</value>
+  <data name="&gt;&gt;grpLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnCalcTemperature.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 42</value>
+  <data name="&gt;&gt;grpLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblEventHorizon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnFontColour.Name" xml:space="preserve">
-    <value>btnFontColour</value>
-  </data>
-  <data name="btnBackColour.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="&gt;&gt;btnFontColour.Parent" xml:space="preserve">
-    <value>grpColours</value>
-  </data>
-  <data name="colStarVelocity.Width" type="System.Int32, mscorlib">
-    <value>131</value>
-  </data>
-  <data name="&gt;&gt;tbStarDistance.Name" xml:space="preserve">
-    <value>tbStarDistance</value>
-  </data>
-  <data name="lblEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 13</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;grpLanguage.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnLanguagesGerman.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -511,328 +775,247 @@
         SwCBqHN/K7tKfWNnSZIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="&gt;&gt;tbStarDistance.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnBackColour.Text" xml:space="preserve">
-    <value>Background Colour</value>
-  </data>
-  <data name="btnCalcTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 151</value>
-  </data>
-  <data name="tbEventHorizon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="colTemperature.Width" type="System.Int32, mscorlib">
-    <value>129</value>
-  </data>
-  <data name="&gt;&gt;btnLanguagesFrench.Parent" xml:space="preserve">
-    <value>grpLanguage</value>
-  </data>
-  <data name="&gt;&gt;btnCalcTemperature.Name" xml:space="preserve">
-    <value>btnCalcTemperature</value>
-  </data>
-  <data name="lvResults.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 213</value>
-  </data>
-  <data name="grpLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 12</value>
-  </data>
-  <data name="btnCalcStarVelocity.Text" xml:space="preserve">
-    <value>Calculate</value>
-  </data>
-  <data name="&gt;&gt;lblStarVelocity.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblStarDistance.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
-  </data>
-  <data name="&gt;&gt;btnCalcTemperature.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;grpColours.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="tbStarVelocity02.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="btnFontColour.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tbTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 115</value>
-  </data>
-  <data name="btnCalcTemperature.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="&gt;&gt;rbDarkMode.Parent" xml:space="preserve">
-    <value>grpColours</value>
-  </data>
-  <data name="lblStarVelocity.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
-  </data>
-  <data name="&gt;&gt;rbDarkMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rbLightMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 23</value>
-  </data>
-  <data name="&gt;&gt;grpLanguage.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="rbLightMode.Text" xml:space="preserve">
-    <value>Light Mode</value>
-  </data>
-  <data name="&gt;&gt;rbLightMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTemperature.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tbStarVelocity02.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colTemperature.Name" xml:space="preserve">
-    <value>colTemperature</value>
-  </data>
-  <data name="tbStarDistance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 115</value>
-  </data>
-  <data name="btnCalcStarDistance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 42</value>
-  </data>
-  <data name="&gt;&gt;btnFontColour.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lvResults.Name" xml:space="preserve">
-    <value>lvResults</value>
-  </data>
-  <data name="tbStarDistance.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
-  </data>
-  <data name="&gt;&gt;rbLightMode.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tbStarDistance.Text" xml:space="preserve">
-    <value>0.547</value>
-  </data>
-  <data name="lblStarVelocity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 97</value>
-  </data>
-  <data name="grpColours.Text" xml:space="preserve">
-    <value>Colours</value>
-  </data>
-  <data name="btnLanguagesFrench.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 48</value>
-  </data>
-  <data name="&gt;&gt;tbStarVelocity01.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnLanguagesFrench.Name" xml:space="preserve">
-    <value>btnLanguagesFrench</value>
-  </data>
-  <data name="lblStarVelocity.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="colStarDistance.Text" xml:space="preserve">
-    <value>Star Distance</value>
-  </data>
-  <data name="btnLanguagesGerman.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 48</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="&gt;&gt;grpColours.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnCalcTemperature.Text" xml:space="preserve">
-    <value>Calculate</value>
-  </data>
-  <data name="&gt;&gt;lblStarDistance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rbDarkMode.Text" xml:space="preserve">
-    <value>Dark Mode</value>
-  </data>
-  <data name="btnCalcStarDistance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 151</value>
-  </data>
-  <data name="&gt;&gt;btnLanguagesEnglish.Parent" xml:space="preserve">
-    <value>grpLanguage</value>
-  </data>
-  <data name="btnBackColour.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblStarDistance.Name" xml:space="preserve">
-    <value>lblStarDistance</value>
-  </data>
-  <data name="btnCalcStarDistance.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="&gt;&gt;colStarVelocity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnLanguagesFrench.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="btnLanguagesGerman.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
-  </data>
-  <data name="rbDarkMode.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="grpLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>54</value>
-  </data>
-  <data name="lblTemperature.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 13</value>
-  </data>
-  <data name="&gt;&gt;grpLanguage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblStarVelocity.Name" xml:space="preserve">
-    <value>lblStarVelocity</value>
-  </data>
-  <data name="&gt;&gt;btnCalcStarVelocity.Name" xml:space="preserve">
-    <value>btnCalcStarVelocity</value>
-  </data>
-  <data name="&gt;&gt;colStarVelocity.Name" xml:space="preserve">
-    <value>colStarVelocity</value>
-  </data>
-  <data name="&gt;&gt;lblStarDistance.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnLanguagesEnglish.Name" xml:space="preserve">
-    <value>btnLanguagesEnglish</value>
-  </data>
-  <data name="rbDarkMode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;tbTemperature.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tbTemperature.Name" xml:space="preserve">
-    <value>tbTemperature</value>
-  </data>
-  <data name="lblEventHorizon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>410, 97</value>
-  </data>
-  <data name="&gt;&gt;colEventHorizon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tbTemperature.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
-  </data>
-  <data name="&gt;&gt;lblEventHorizon.Name" xml:space="preserve">
-    <value>lblEventHorizon</value>
-  </data>
-  <data name="rbLightMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 17</value>
-  </data>
-  <data name="btnLanguagesEnglish.TabIndex" type="System.Int32, mscorlib">
-    <value>52</value>
-  </data>
-  <data name="&gt;&gt;lblEventHorizon.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="tbEventHorizon.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
-  </data>
-  <data name="&gt;&gt;btnLanguagesGerman.Parent" xml:space="preserve">
-    <value>grpLanguage</value>
-  </data>
-  <data name="btnLanguagesFrench.TabIndex" type="System.Int32, mscorlib">
-    <value>53</value>
-  </data>
-  <data name="tbStarVelocity01.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
-  </data>
-  <data name="tbStarVelocity02.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 31</value>
-  </data>
-  <data name="tbStarVelocity02.Text" xml:space="preserve">
-    <value>500.0</value>
-  </data>
-  <data name="lblTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 97</value>
-  </data>
-  <data name="tbEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 31</value>
-  </data>
-  <data name="&gt;&gt;lblEventHorizon.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnCalcEventHorizon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblStarVelocity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 13</value>
   </data>
   <data name="btnLanguagesGerman.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 18</value>
   </data>
-  <data name="lblEventHorizon.Text" xml:space="preserve">
-    <value>Event Horizon</value>
+  <data name="btnLanguagesGerman.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
   </data>
-  <data name="&gt;&gt;tbTemperature.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="btnLanguagesGerman.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
   </data>
-  <data name="colTemperature.Text" xml:space="preserve">
-    <value>Temperature in Kelvin</value>
-  </data>
-  <data name="btnCalcEventHorizon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 42</value>
-  </data>
-  <data name="&gt;&gt;btnLanguagesGerman.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblTemperature.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="btnLanguagesEnglish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 18</value>
-  </data>
-  <data name="&gt;&gt;btnCalcEventHorizon.Name" xml:space="preserve">
-    <value>btnCalcEventHorizon</value>
-  </data>
-  <data name="rbDarkMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 48</value>
-  </data>
-  <data name="&gt;&gt;tbStarDistance.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;tbStarVelocity02.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;btnLanguagesEnglish.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;btnLanguagesGerman.Name" xml:space="preserve">
+    <value>btnLanguagesGerman</value>
   </data>
   <data name="&gt;&gt;btnLanguagesGerman.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;colEventHorizon.Name" xml:space="preserve">
-    <value>colEventHorizon</value>
+  <data name="&gt;&gt;btnLanguagesGerman.Parent" xml:space="preserve">
+    <value>grpLanguage</value>
   </data>
-  <data name="tbTemperature.Text" xml:space="preserve">
-    <value>27</value>
+  <data name="&gt;&gt;btnLanguagesGerman.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;rbLightMode.Name" xml:space="preserve">
-    <value>rbLightMode</value>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="lblStarVelocity.Text" xml:space="preserve">
-    <value>Star Velocity</value>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 24</value>
   </data>
-  <data name="&gt;&gt;tbEventHorizon.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
   </data>
-  <data name="&gt;&gt;btnCalcTemperature.Parent" xml:space="preserve">
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="btnCalcStarDistance.Text" xml:space="preserve">
-    <value>Calculate</value>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;btnLanguagesEnglish.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="coloursToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="coloursToolStripMenuItem.Text" xml:space="preserve">
+    <value>Colours</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="germanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="germanToolStripMenuItem.Text" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="backgroundColourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="backgroundColourToolStripMenuItem.Text" xml:space="preserve">
+    <value>Background Colour</value>
+  </data>
+  <data name="fontColourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="fontColourToolStripMenuItem.Text" xml:space="preserve">
+    <value>Font Colour</value>
+  </data>
+  <data name="modeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="modeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="lightModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="lightModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Light Mode</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="darkModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Dark Mode</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>560, 488</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Astro Client</value>
+  </data>
+  <data name="&gt;&gt;colStarVelocity.Name" xml:space="preserve">
+    <value>colStarVelocity</value>
+  </data>
+  <data name="&gt;&gt;colStarVelocity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colStarDistance.Name" xml:space="preserve">
+    <value>colStarDistance</value>
+  </data>
+  <data name="&gt;&gt;colStarDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colTemperature.Name" xml:space="preserve">
+    <value>colTemperature</value>
+  </data>
+  <data name="&gt;&gt;colTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colEventHorizon.Name" xml:space="preserve">
+    <value>colEventHorizon</value>
+  </data>
+  <data name="&gt;&gt;colEventHorizon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coloursToolStripMenuItem.Name" xml:space="preserve">
+    <value>coloursToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;coloursToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Name" xml:space="preserve">
+    <value>frenchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;germanToolStripMenuItem.Name" xml:space="preserve">
+    <value>germanToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;germanToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundColourToolStripMenuItem.Name" xml:space="preserve">
+    <value>backgroundColourToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;backgroundColourToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fontColourToolStripMenuItem.Name" xml:space="preserve">
+    <value>fontColourToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fontColourToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modeToolStripMenuItem.Name" xml:space="preserve">
+    <value>modeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;modeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lightModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>lightModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;lightModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;darkModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>darkModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;darkModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AstroClient</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

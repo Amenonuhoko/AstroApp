@@ -185,7 +185,39 @@ namespace ClientAstroApp
                 }
             }
         }
+
+        private void backgroundColourToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // use using so it closes correctly
+            using (ColorDialog colorDialog = new ColorDialog())
+            {
+                // add current colour
+                colorDialog.Color = this.BackColor;
+
+                DialogResult result = colorDialog.ShowDialog();
+                // if ok change to selected colour
+                if (result == DialogResult.OK)
+                {
+                    this.BackColor = colorDialog.Color;
+                }
+            }
+        }
         private void btnFontColour_Click(object sender, EventArgs e)
+        {
+            // same basically
+            using (ColorDialog colorDialog = new ColorDialog())
+            {
+                colorDialog.Color = this.ForeColor;
+
+                DialogResult result = colorDialog.ShowDialog();
+
+                if (result == DialogResult.OK)
+                {
+                    this.ForeColor = colorDialog.Color;
+                }
+            }
+        }
+        private void fontColourToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // same basically
             using (ColorDialog colorDialog = new ColorDialog())
@@ -213,6 +245,17 @@ namespace ClientAstroApp
                 ApplyDarkModeToControls(this);
             }
         }
+
+        private void lightModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ApplyLightModeToControls(this);
+        }
+
+        private void darkModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ApplyDarkModeToControls(this);
+        }
+
         private void ApplyLightModeToControls(Control control)
         {
             // change everything
@@ -263,25 +306,6 @@ namespace ClientAstroApp
         #endregion
 
         #region Languages
-        private void btnLanguagesFrench_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("fr-FR");
-            Controls.Clear();
-            InitializeComponent();
-            if (rbLightMode.Checked == true)
-            {
-                ApplyLightModeToControls(this);
-            }
-            else if (rbDarkMode.Checked == true)
-            {
-                ApplyDarkModeToControls(this);
-            }
-            else
-            {
-                ApplyDarkModeToControls(this);
-            }
-        }
-
         private void btnLanguagesEnglish_Click(object sender, EventArgs e)
         {
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
@@ -295,13 +319,22 @@ namespace ClientAstroApp
             {
                 ApplyDarkModeToControls(this);
             }
-            else
+        }
+
+        private void btnLanguagesFrench_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("fr-FR");
+            Controls.Clear();
+            InitializeComponent();
+            if (rbLightMode.Checked == true)
+            {
+                ApplyLightModeToControls(this);
+            }
+            else if (rbDarkMode.Checked == true)
             {
                 ApplyDarkModeToControls(this);
             }
         }
-
-        #endregion
 
         private void btnLanguagesGerman_Click(object sender, EventArgs e)
         {
@@ -316,11 +349,60 @@ namespace ClientAstroApp
             {
                 ApplyDarkModeToControls(this);
             }
-            else
+        }
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
+            Controls.Clear();
+            InitializeComponent();
+            if (rbLightMode.Checked == true)
+            {
+                ApplyLightModeToControls(this);
+            }
+            else if (rbDarkMode.Checked == true)
             {
                 ApplyDarkModeToControls(this);
             }
         }
+
+        private void frenchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("fr-FR");
+            Controls.Clear();
+            InitializeComponent();
+            if (rbLightMode.Checked == true)
+            {
+                ApplyLightModeToControls(this);
+            }
+            else if (rbDarkMode.Checked == true)
+            {
+                ApplyDarkModeToControls(this);
+            }
+        }
+        private void germanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("de-DE");
+            Controls.Clear();
+            InitializeComponent();
+            if (rbLightMode.Checked == true)
+            {
+                ApplyLightModeToControls(this);
+            }
+            else if (rbDarkMode.Checked == true)
+            {
+                ApplyDarkModeToControls(this);
+            }
+        }
+
+        #endregion
+
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
     }
 
 }
